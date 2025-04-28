@@ -31,7 +31,7 @@ Example MCP client configuration for STDIO:
         "-i",
         "--rm",
         "-e",
-        "McpServerOptions__ConnectionString=Host",
+        "McpServerOptions__ConnectionString",
         "nihfix/postgres.mcp",
         "--access-mode=unrestricted"
       ],
