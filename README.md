@@ -16,6 +16,10 @@ It supports two transport types: **STDIO** for direct process communication and 
 ```bash
 docker run -i --rm   -e McpServerOptions__ServerType=Sse   -e McpServerOptions__ConnectionString="Host=host.docker.internal;Port=5432;Database=MyDbName;User ID=dbUser;Password=dbUserPassword;"   -p 3002:8080   nihfix/postgres.mcp
 ```
+Then define server url in your client:
+```
+http://localhost:3002/sse
+```
 
 ## Quick Start (STDIO Mode)
 
