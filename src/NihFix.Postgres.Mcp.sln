@@ -2,6 +2,11 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NihFix.Postgres.Mcp", "NihFix.Postgres.Mcp\NihFix.Postgres.Mcp.csproj", "{0CFF8C3B-9CF5-48A5-9F7B-E47F70DF0FCC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdditionalItems", "AdditionalItems", "{5EEF99E1-2AF3-4193-BEC5-5D54D64B314D}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
