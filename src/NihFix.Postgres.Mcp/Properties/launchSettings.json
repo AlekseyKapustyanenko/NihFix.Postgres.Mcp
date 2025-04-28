@@ -1,0 +1,20 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "NihFix.Postgres.Mcp-SSE": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:3001",
+      "environmentVariables": {
+        "McpServerOptions:ServerType":"Sse"
+      }
+    },
+    "NihFix.Postgres.Mcp-STDIO": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "McpServerOptions:ServerType":"Stdio"
+      }
+    }
+  }
+}

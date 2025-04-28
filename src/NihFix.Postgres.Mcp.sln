@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NihFix.Postgres.Mcp", "NihFix.Postgres.Mcp\NihFix.Postgres.Mcp.csproj", "{0CFF8C3B-9CF5-48A5-9F7B-E47F70DF0FCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CFF8C3B-9CF5-48A5-9F7B-E47F70DF0FCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CFF8C3B-9CF5-48A5-9F7B-E47F70DF0FCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CFF8C3B-9CF5-48A5-9F7B-E47F70DF0FCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CFF8C3B-9CF5-48A5-9F7B-E47F70DF0FCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
